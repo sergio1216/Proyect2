@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c1be4f1c52.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/all.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Sección barra navegadora-->
+    <nav class="nav">
+        <div class="logo">
+            <img src="data:image/png;base64,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" alt="">
+            <span>Pinterest</span>
+        </div>
+        <div class="nav-menu">
+            <span>Info</span>
+            <span>Empresa</span>
+            <span>Blog</span>
+            <span class="inicio-sesion">Iniciar Sesión</span>
+            <span>Registrarse</span>
+        </div>
+    </nav>
+    <!-- Termina sección barra navegadora -->
+
+    <!-- Sección de Portada -->
+
+    <section class="title-container">
+        <div class="title">
+            <h1>Descubre tu próximo</h1>
+        </div>
+        <div class="title2">
+            <h1>proyecto de renovación</h1>
+        </div>
+        <div class="cover-button">
+            <i class="fa-solid fa-chevron-down"></i>   
+        </div>
+    </section>
+    
+    <section class="portadaprincipal">
+        <div class="cards">
+            <div class="columna columna1">
+                <div class="card-image"></div>
+                <div class="card-image"></div>
+            </div>
+            <div class="columna columna2">
+                <div class="card-image"></div>
+            </div>
+            <div class="columna columna3">
+                <div class="card-image"></div>
+            </div>
+            <div class="columna columna4">
+                <div class="card-image"></div>
+            </div>
+            <div class="columna columna5">
+                <div class="card-image"></div>
+            </div>
+            <div class="columna columna6">
+                <div class="card-image"></div>
+                <div class="card-image"></div>
+            </div>
+        </div>
+        
+    </section>
+    <footer class="sec1-footer">
+        <p>Aquí te mostramos como funciona</p>
+        <i class="fa-solid fa-chevron-down"></i>
+    </footer>
+    <!-- Termina sección de Portada -->
+
+    <!-- SEGUNDA SECCIÓN -->
+
+    <section class="seccion-ideas">
+        <div class="sec2-imgcontainer">  
+                <div class="sec2-img1"></div>
+                <div class="sec2-img2"></div>
+                <div class="sec2-img3"></div>
+                <div class="sec2-img4">
+                    <span><i class="fa-solid fa-magnifying-glass"></i>cena fácil con pollo</span>
+                </div>       
+        </div>   
+        <div class="text-container">
+            <h1>Busca una idea</h1><br>
+            <p>¿Que quieres probar ahora? Piensa en algo que te guste, como "cena fácil con pollo", y mira lo que encuentras.</p>
+            <button>Explorar</button>
+        </div>
+    </section>
+    <!-- Termina SEGUNDA SECCIÓN -->
+
+    <!-- TERCER SECCIÓN -->
+
+    <section class="seccion3">
+       
+            <div class="text-container">
+                <h1>Guarda las ideas que te gusten</h1><br>
+                <p>Recopila tus favoritos para volver a verlos después.</p>
+                <button>Explorar</button>
+            </div>
+
+        <div class="columnasec3">   
+            <div class="sec3-imgcontainer">
+                <div class="sec3-img1">
+                    <span>Mi futuro hogar con helechos</span>
+                </div>
+                <div class="sec3-img2">
+                    <span>Mi dormitorio escandinavo</span>
+                </div>
+                <div class="sec3-img3">
+                    <span>El deck de mis sueños</span>
+                </div>
+                <div class="sec3-img4">
+                    <span>Nuestra remodelación de baño</span>
+                </div>
+                <div class="sec3-img5">
+                    <span>Tragos con los amigos</span>
+                </div>
+            </div>   
+        </div>
+    </section>
+    <!-- Termina TERCER SECCIÓN -->
+
+     <!-- CUARTA SECCIÓN -->
+
+    <section class="seccion4"> 
+        <div class="img-container4">   
+            <div class="sec4-img1"></div>
+            <div class="sec4-img2"></div>
+                <div class="text-img2">
+                    <span>Scout the city</span><br
+                    <span>56.7 mil seguidores</span>
+                </div>
+        </div>
+
+        <div class="text-container4">
+            <h1>Míralo, créalo, pruébalo, hazlo</h1><br>
+            <p>Lo mejor de Pinterest es descubrir cosas e ideas nuevas de personas de todo el mundo.</p>
+            <button>Explorar</button>
+        </div>
+    </section>
+    <!-- Termina CUARTA SECCIÓN -->
+
+    <!-- QUINTA SECCIÓN -->
+
+    <section class="seccion5"> 
+        <div class="sec5-img">
+            <img src="https://img.freepik.com/foto-gratis/bosque-abedules-tarde-soleada-temporada-otono_146671-19510.jpg?size=626&ext=jpg" alt="">
+            <img src="https://img.freepik.com/foto-gratis/peces-area-arrecifes-coral_1398-4841.jpg?size=626&ext=jpg" alt="">
+            <img src="https://img.freepik.com/foto-gratis/avion-al-atardecer_1150-8368.jpg?w=900&t=st=1662603933~exp=1662604533~hmac=ec3b3ed6afb37c6389b29f74792dffad9d499ac3b4a150b720d1c0f0d2522f47" alt="">
+            <img src="https://img.freepik.com/foto-gratis/hermoso-paisaje-amanecer-puerto-deportivo-turks-caicos_181624-24553.jpg?size=626&ext=jpg" alt="">
+            <img src="https://img.freepik.com/foto-gratis/hermoso-arbol-medio-campo-cubierto-hierba-linea-arboles-fondo_181624-29267.jpg?size=626&ext=jpg" alt="">
+            <img src="https://img.freepik.com/foto-gratis/concepto-viaje-plano-completo-puntos-referencia_23-2149153258.jpg?size=626&ext=jpg" alt="">
+            <img src="https://img.freepik.com/fotos-premium/manos_3579-2346.jpg?size=626&ext=jpg" alt="">
+            <img src="https://img.freepik.com/foto-gratis/fascinante-vista-hermosas-montanas-nevadas_181624-35396.jpg?size=626&ext=jpg" alt="">
+            <img src="https://img.freepik.com/foto-gratis/lucha-contra-peces-sobre-fondo-negro_335224-1005.jpg?size=626&ext=jpg" alt="">
+            <img src="https://img.freepik.com/foto-gratis/joven-nomada-digital-viajando-invierno_23-2149207314.jpg?size=626&ext=jpg" alt="">
+            
+            <img src="https://img.freepik.com/foto-gratis/avion-al-atardecer_1150-8368.jpg?w=900&t=st=1662603933~exp=1662604533~hmac=ec3b3ed6afb37c6389b29f74792dffad9d499ac3b4a150b720d1c0f0d2522f47" alt="">
+            <img src="https://img.freepik.com/foto-gratis/hermoso-paisaje-amanecer-puerto-deportivo-turks-caicos_181624-24553.jpg?size=626&ext=jpg" alt="">
+
+        </div>
+
+        <div class="text-container5">
+            <h1>Regístrate para ver tus ideas</h1><br>
+        </div>
+
+        <div class="button3">
+            <i class="fa-solid fa-chevron-up"></i>
+        </div>
+
+        <div class="Register">
+            <img src="https://s.pinimg.com/webapp/logo_trans_144x144-5e37c0c6.png" alt="">
+            <h1>Te damos la bienvenida a Pinterest</h1><br>
+            <p>Encuentra nuevas ideas para experimentar</p>
+
+            <span class="subtitle">Correo Electrónico</span>
+            <input type="text" placeholder="Correo Electrónico">
+            <span class="subtitle">Contraseña</span>
+            <input type="text" placeholder="Crea una contraseña">
+            <span class="subtitle">Edad</span>
+            <input type="text" placeholder="Edad">
+
+            <button class="button1">Continuar</button>
+            <h5>O</h5>
+            <button class="button2"><i class="fa-brands fa-facebook"></i>Continuar como</button>
+        </div>
+
+    </section>
+    <!-- Termina QUINTA SECCIÓN -->
+
+    <!-- FOOTER -->
+
+    <section>
+        <footer class="footer">
+            <ul>
+                <li>Condiciones de servicio</li>
+                <li>Política de privacidad</li>
+                <li>Ayuda</li>
+                <li>Aplicación para Iphone</li>
+                <li>Aplicación para Android</li>
+                <li>Usuarios</li>
+                <li>Colecciones</li>
+                <li>Hoy</li>
+                <li>Explorar</li>
+            </ul>
+        </footer>
+    </section>
+    <!-- Termina FOOTER -->
+
+</body>
+</html>
